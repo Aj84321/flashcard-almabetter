@@ -1,0 +1,71 @@
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* import { IoIosArrowForward } from 'react-icons/ioios'; */
+
+.active{
+  color: red;
+  border-bottom: 4px solid red;
+  border-radius: 4px;
+  padding: 7px 4px;
+  
+}
+.activeTerm{
+  color: red;
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.activeTerm > .icon{
+  display: inline-block;
+}
+.activeCarouselButton{
+background-color: red;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+.space-evenly{
+  justify-content: space-evenly;
+}
+
+body {
+  font-size: 0.8rem!important;
+  font-family: monospace!important;
+}
+
+button {
+  font-size: 0.8rem!important;
+  font-family: monospace!important;
+}
+
+.bg-gradient-1{
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-gradient-dark{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
